@@ -1,0 +1,60 @@
+name: wear_pro
+description: Final Year Project
+
+
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons:
+  font_awesome_flutter:
+  google_fonts:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  firebase_storage:
+  provider:
+  animated_bottom_navigation_bar:
+  badges:
+  carousel_slider:
+  animated_theme_switcher:
+  animated_radial_menu:
+  responsive_table:
+  data_tables:
+  data_table_2:
+  fl_chart:
+ # modal_progress_hud:
+  geolocator:
+  geocoding:
+  image_picker:
+  email_validator:
+  location:
+ # geocoder:
+  flutter_easyloading:
+  shared_preferences:
+  local_auth:
+  fluttertoast:
+  search_page:
+  flutter_rating_bar:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
